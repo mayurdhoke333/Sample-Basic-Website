@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mayur website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <img src="bp.jpg" alt="" />
+      <div class="buttons">
+        <a href="#love-calculator" class="links">LOVE CALCULATOR</a>
+        <a href="#leap-year" class="links">LEAP YEAR</a>
+        <a href="#dice-game" class="links">DICE GAME</a>
+      </div>
+    </header>
+    <section id="love-calculator">
+      <div>
+        <h1 class="heading">Welcome to love Calculator</h1>
+        <p class="love-paragraph">
+          enter your and your partner name and check whether you both suitable
+          or not.
+        </p>
+        <input type="text" placeholder="Your Name" />
+        <input type="text" placeholder="Partner Name" />
+        <button onclick="loveCalculation()" class="love-button">
+          GET SCORE
+        </button>
+        <div class="show">
+          <h1>hello</h1>
+          <h2></h2>
+          <img
+            src="https://media.giphy.com/media/3oriO6qJiXajN0TyDu/giphy.gif"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="leap-year">
+      <h1 class="leap-heading">Leap Year Calculator.</h1>
+      <h2 class="leap-display"></h2>
+      <input type="text" class="leap-value" placeholder="Enter the year" />
+      <button class="leap-cal" onclick="leapCalculator()">Click here</button>
+    </section>
+
+    <section id="dice-game">
+      <h1 class="dice-heading">Dice Game Challenge</h1>
+      <h2 class="win-title"></h2>
+      <div class="img-block">
+        <img src="dice6.png" alt="" class="dice-image" />
+        <h2>Player 1</h2>
+      </div>
+      <div class="img-block">
+        <img src="dice6.png" alt="" class="dice-image" />
+        <h2>Player 2</h2>
+      </div>
+      <button class="dice-button" onclick="dice()">PlayGame</button>
+    </section>
+
+    <footer>
+      <h1>© Mayur dhoke</h1>
+    </footer>
+  </body>
+</html>

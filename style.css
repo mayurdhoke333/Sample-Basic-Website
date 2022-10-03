@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  height: 600px;
+  /* border: 1px solid black; */
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+header img {
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  object-fit: fill;
+  opacity: 0.3;
+}
+header:hover {
+  /* background-color: rgba(0, 0, 0, 0.6); */
+  /* transition: 1s; */
+}
+.buttons {
+  width: 60%;
+  position: absolute;
+  margin: 20% 20%;
+  text-align: center;
+}
+.buttons a {
+  width: 30%;
+  text-decoration: none;
+  font-size: larger;
+  color: antiquewhite;
+  display: inline-block;
+  background-color: hotpink;
+  padding: 10px 6px;
+  border-radius: 25px;
+}
+
+.links:hover {
+  background-color: lightblue;
+  color: hotpink;
+  text-shadow: 1px 1px black;
+  transition: 1s;
+}
+
+/* LOVE CALCULATOR */
+#love-calculator {
+  text-align: center;
+  padding: 7% 15%;
+}
+input {
+  margin-top: 1rem;
+  outline: none;
+  padding: 1%;
+}
+input:hover {
+  /* transition: 1s; */
+  border-style: inset;
+  border-color: orange;
+  border-width: 0 0 2px 0;
+}
+.love-button {
+  border-style: solid;
+  border-width: 4px;
+  border-color: aliceblue;
+  text-decoration: none;
+  padding: 1%;
+  background-color: darksalmon;
+}
+.love-button:hover {
+}
+.onclicked {
+  background-color: goldenrod;
+}
+.show {
+  display: none;
+}
+.show img {
+  margin: 2%;
+  width: 60%;
+  height: 400px;
+}
+.show h1 {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  word-spacing: 1px;
+  font-weight: 800;
+  background: -webkit-linear-gradient(#f12711, #f5af19);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.show h2 {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  word-spacing: 1px;
+  font-weight: 800;
+  background: -webkit-linear-gradient(#f12711, #f5af19);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.heading {
+  font-size: 3rem;
+  background: -webkit-linear-gradient(#2193b0, #6dd5ed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.love-paragraph {
+  margin: 2%;
+  font-size: 1.5rem;
+  background: -webkit-linear-gradient(#7f7fd5, #86a8e7, #91eae4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+/* SECTION LEAP YEAR */
+#leap-year {
+  padding: 5% 15%;
+  text-align: center;
+  background: -webkit-linear-gradient(#0b486b, #f56217);
+}
+.leap-heading {
+  font-size: 3rem;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  text-shadow: 1px 2px red;
+}
+.leap-cal {
+  text-decoration: none;
+  display: block;
+  width: 20%;
+  margin: 1% auto;
+  padding: 12px 12px;
+  border-style: ridge;
+  border-radius: 25px;
+  border-color: grey;
+  border-width: 4px;
+}
+.leap-value {
+  border-style: inset;
+  border-color: #f56217;
+  border-width: 0 0 2px 0;
+}
+.leap-display {
+  margin: 2%;
+  text-shadow: 1px 2px #f56217;
+}
+.leap-style {
+  border-color: aliceblue;
+  background-color: beige;
+}
+
+/* SECTION DICE */
+
+#dice-game {
+  padding: 6% 15%;
+  text-align: center;
+}
+.dice-heading {
+  text-transform: capitalize;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px orange;
+  margin-bottom: 30px;
+}
+.dice-image {
+  width: 200px;
+  height: 200px;
+}
+.img-block {
+  display: inline-block;
+  margin: 20px;
+}
+.img-block h2 {
+  font-size: 1.9rem;
+}
+.dice-button {
+  display: block;
+  text-decoration: none;
+  width: 20%;
+  margin: 1% auto;
+  padding: 12px;
+  border-radius: 25px;
+  outline: none;
+  border-width: 12px;
+  border-radius: 25px;
+  border-color: #f12711;
+  border-style: double;
+}
+.dice-style {
+  border-style: inset;
+  background-color: cornsilk;
+}
+
+/* FOOTER SECTION */
+footer {
+  padding: 7% 15%;
+  text-align: center;
+  background: -webkit-linear-gradient(#0b486b, #f56217);
+}
+footer h1 {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  letter-spacing: 3px;
+}
